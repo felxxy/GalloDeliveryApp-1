@@ -1,0 +1,14 @@
+-- Configuração do GIT
+git config --global user.name GalloJunior
+git config --global user.email gallojunior@gmail.com
+
+npx create-expo-app@latest galloDelivery
+
+cd galloDelivery
+npm run reset-project         -> pressione 'n'
+
+Criar uma pasta constants
+Criar um arquivo Colors.ts na pasta constants
+
+Criar uma pasta components
+Criar um arquivo CustomHeader.tsx na pasta components -> rnfs
